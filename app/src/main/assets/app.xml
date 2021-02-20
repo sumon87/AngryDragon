@@ -1,0 +1,117 @@
+<xml>
+  <navigation type="simple" backgroundColor="" backgroundImage="" contentOverlap="" itemsPosition="" textStyle="" textSize="" textFont="" iosStyleNavigation="">
+    <items>
+      <item icon="icon-menu.png" text="tab1" textColor="" selectedTextColor="" selectedIcon="" backgroundImage="" selectedBackgroundImage="" backgroundColor="" selectedBackgroundColor="" />
+      <item icon="icon-bookmark.png" text="tab2" textColor="" selectedTextColor="" selectedIcon="" backgroundImage="" selectedBackgroundImage="" backgroundColor="" selectedBackgroundColor="" />
+      <item icon="icon-global.png" text="tab3" textColor="" selectedTextColor="" selectedIcon="" backgroundImage="" selectedBackgroundImage="" backgroundColor="" selectedBackgroundColor="" />
+      <item icon="icon-edit.png" text="tab4" textColor="" selectedTextColor="" selectedIcon="" backgroundImage="" selectedBackgroundImage="" backgroundColor="" selectedBackgroundColor="" />
+    </items>
+  </navigation>
+  <targetplatform simulator="Nexus6">Android</targetplatform>
+  <template price="199.99" id="AngryDragon" scaleWebPagesToBaseResolution="false" topadtype="none" bottomadtype="admob" globalLogo="" isUniversalApp="false" />
+  <prop id="appname" title="App Name">dAngryDragon1</prop>
+  <prop id="tab1text" title="Tab1 Text">tab1</prop>
+  <prop id="tab1icon" title="Tab1 Icon">cover.png</prop>
+  <prop id="tab2text" title="Tab2 Text">tab2</prop>
+  <prop id="tab2icon" title="Tab2 Icon">index.png</prop>
+  <prop id="tab3text" title="Tab3 Text">tab3</prop>
+  <prop id="tab3icon" title="Tab3 Icon">content.png</prop>
+  <prop id="tab4text" title="Tab4 Text">tab4</prop>
+  <prop id="tab4icon" title="Tab4 Icon">coffee.png</prop>
+  <planname>Basic</planname>
+  <file id="appStyles.xml" newsfile="yes">
+  </file>
+  <page id="index.html" type="html" kind="html" transition="NONE" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="admob" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" title="" logo="" shownavbar="yes" zoomEnabled="false" loadWebUrlsInSameWebView="false" backgroundColor="" />
+  <hostedresources>
+  </hostedresources>
+  <page id="tab2.html" type="html" title="" logo="" transition="none" slidepageid="none" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="admob" dynamicdata="false" jsonurl="" shownavbar="yes" zoomEnabled="false" loadWebUrlsInSameWebView="false" backgroundColor="" kind="html" />
+  <restrictedaccess>
+    <feature id="announcements" enabled="true" />
+    <feature id="calendar" enabled="true" />
+    <feature id="coupon" enabled="true" />
+    <feature id="geofences" enabled="true" />
+    <feature id="loyalty" enabled="true" />
+    <feature id="map" enabled="true" />
+    <feature id="productorder" enabled="true" />
+    <feature id="pushnotifications" enabled="true" />
+    <feature id="Booking" enabled="true" />
+    <feature id="pnTopicSubscription" enabled="true" />
+    <feature id="loginregister" enabled="true" />
+  </restrictedaccess>
+  <rateapp appleid="" rateatlaunch="no" rateatrelaunch="no" message="" cancelmessage="" remindmessage="" actionmessage="" />
+  <ads allowUsingAdvertisingId="false" />
+  <admobpublisher id="ca-app-pub-2795231365031599/4817056841" interstitialUnitId="ca-app-pub-2795231365031599/4913916307" />
+  <doubleclickpublisher unitId="" />
+  <pollfish apiKey="" padding="0" position="na" />
+  <revmobappid id="-" />
+  <airpush appId="ca-app-pub-2795231365031599~5252171117" apiKey="ca-app-pub-2795231365031599~1321978042" interstitialAdType="interstitial" />
+  <scads refreshRate="10" />
+  <googleanalyticsid id="" />
+  <localizablelanguage value="en" />
+  <paypalappid id="" />
+  <dropboxapp dropboxapikey="" />
+  <fbapp apikey="" />
+  <androidAppLicensing enabled="false" publicKey="" />
+  <apkExpansionFiles enabled="false" />
+  <androidInAppBilling enabled="false" />
+  <android installLocation="auto" />
+  <pdftron licenseKey="" />
+  <rotationapp>true</rotationapp>
+  <webView bouncesEnabled="false" hideLoadingAnimation="false" externalSiteZoomEnabled="true" />
+  <sharepointclient url="" username="" password="" />
+  <appstorelink>
+  </appstorelink>
+  <googleMaps androidApiV2Key="" />
+  <baiduMaps baiduMapsApiKeyAndroid="" baiduMapsApiKeyiOS="" />
+  <webapp statusBarStyle="default" iconsStyle="precomposed" offlineModeEnabled="false" inAppLinks="false" />
+  <locationServices>
+    <inUseDescription>
+    </inUseDescription>
+    <alwaysDescription>
+    </alwaysDescription>
+  </locationServices>
+  <inAppSettings />
+  <healthKitServices>
+    <healthShareUsage>
+    </healthShareUsage>
+    <healthUpdateUsage>
+    </healthUpdateUsage>
+  </healthKitServices>
+  <cameraServices>
+    <cameraUsageDescription>
+    </cameraUsageDescription>
+  </cameraServices>
+  <photoLibraryServices>
+    <photoLibraryUsageDescription>
+    </photoLibraryUsageDescription>
+  </photoLibraryServices>
+  <microphoneServices>
+    <microphoneUsageDescription>
+    </microphoneUsageDescription>
+  </microphoneServices>
+  <androidC2DM enabled="true" altEnabled="false" />
+  <androidpermissions>
+    <permission name="android.permission.INTERNET" enabled="true" />
+    <permission name="android.permission.ACCESS_COARSE_LOCATION" enabled="true" />
+    <permission name="android.permission.ACCESS_FINE_LOCATION" enabled="true" />
+    <permission name="android.permission.WRITE_EXTERNAL_STORAGE" enabled="true" />
+    <permission name="android.permission.ACCESS_NETWORK_STATE" enabled="true" />
+    <permission name="android.permission.READ_PHONE_STATE" enabled="true" />
+    <permission name="android.permission.RECORD_AUDIO" enabled="true" />
+    <permission name="android.permission.CAMERA" enabled="true" />
+    <permission name="android.permission.VIBRATE" enabled="false" />
+    <permission name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" enabled="false" />
+    <permission name="android.permission.RECEIVE_SMS" enabled="false" />
+    <permission name="android.permission.RECORD_VIDEO" enabled="false" />
+    <permission name="android.permission.MODIFY_AUDIO_SETTINGS" enabled="false" />
+    <permission name="android.permission.READ_CONTACTS" enabled="false" />
+    <permission name="android.permission.WRITE_CONTACTS" enabled="false" />
+    <permission name="android.permission.GET_ACCOUNTS" enabled="false" />
+    <permission name="android.permission.BROADCAST_STICKY" enabled="false" />
+  </androidpermissions>
+  <androidversion>1.0</androidversion>
+  <androidversioncode>1</androidversioncode>
+  <androidbundlename>com.larrydelaney.angrydragon</androidbundlename>
+  <androidshortappname>Angry Dragon</androidshortappname>
+  <syncenabled>true</syncenabled>
+</xml>
